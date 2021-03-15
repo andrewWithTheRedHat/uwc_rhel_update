@@ -1,0 +1,24 @@
+#### script changes
+
+#### 01_pre-requisites.sh
+- change the docker repo to centos ($server-release)
+-- https://download.docker.com/linux/centos/ (server selection for repo)
+- line 186 - install basic dependencies
+-- python3
+-- pip
+-- build-essential (look this up)
+-- wget
+-- curl
+-- patch
+
+
+when starting the install things i found i needed just from ubuntu's side
+- lsb-release
+- systemd
+- software-properties-common
+- tpm2-abrmd
+
+
+1. installing turtlecreek software
+- there are manual steps for encoding and for display - would need to hardcode this.
+
